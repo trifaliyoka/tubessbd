@@ -1,0 +1,253 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+nav .search {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+    width: 20%;
+    display: flex;
+    background-color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Mulish', sans-serif; 
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    background-color: #FBFBFB;
+    justify-content: space-around;
+    padding: 38px 0;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    line-height: 23px;
+    justify-content: space-between;
+    
+}
+
+nav ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color:#CFEEFF;
+}
+
+nav ul .login {
+    background-color: #0066FF;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 4rem;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+main {
+    background-color:white;
+    
+}
+
+.page1{
+    width: 1872px;
+    height: 396px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-color: #0066FF;
+}
+
+.page1-caption{
+    position: absolute;
+    width: 847px;
+    height: 269.87px;
+    left: 151px;
+    top: 131.78px;
+
+    font-family: 'Mulish', sans-serif; 
+
+    font-size: 72px;
+    line-height: 100px;
+}
+
+.page2{
+    display: flex;
+    background-color: #CFEEFF;
+    justify-content: space-around;
+    padding: 30px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.page2nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-family: 'Mulish', sans-serif;
+}
+
+.page2-button1{
+    background-color: #FFFFFF;
+    border: none;
+    padding: 1rem 4rem;
+    font-size: 24px;
+    cursor: pointer;
+    left: 1em;
+}
+
+.page2-button2{
+    background-color: #FFFFFF;
+    border: none;
+    padding: 1rem 4rem;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+.page3-title{
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    min-height: 2500px;
+    font-size: 36px;
+
+}
+
+.page
+{
+    background-color: black;
+    position: sticky;
+    top: 100%;
+    clear:both;
+    padding-top:20px;
+} 
+footer.footer{
+    min-height: 500px ;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+}
+
+footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 4rem .9rem;
+}
+
+footer.footer .container h2{
+    color: var(--white);
+}
+
+footer.footer .newsletter .form-element{
+    background: black;
+    display: inline-block;
+}
+
+footer.footer .newsletter .form-element input{
+    padding: .5rem .7rem;
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: var(--Archivo);
+    font-size: 1rem;
+    width: 74%;
+}
+
+footer.footer .newsletter .form-element span{
+    background: var(--text-nadeshikopink);
+    padding: .5rem .7rem;
+    cursor: pointer;
+}
+
+
+footer.footer .rights{
+    justify-content: center;
+    font-family: var(--Archivo);
+}
+
+footer.footer .rights h4 a{
+    color: var(--white);
+}
+
+footer.footer .move-up{
+    position: absolute;
+    right: 6%;
+    top: 50%;
+}
+
+footer.footer .move-up span{
+    color: var(--text-nadeshikopink);
+}
+
+footer.footer .move-up span:hover{
+    color: var(--white);
+    cursor: pointer;
+}
+/*
+.carousel-item::before{
+    content: "";
+    display: block;
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+}
+
+.carousel-caption{
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption h5{
+    font-size: 100px;
+    font-weight: 700;
+
+}
+
+.carousel-caption p{
+    font-size: 18px;
+    top: 2rem;
+}
+
+.slider-btn{
+    margin-top:30px;
+}
+
+.slider-btn .btn {
+    background-color:UI#e74c3c;
+    columns:white;
+    border-radius:0;
+    padding: 1.5rem 2rem;
+    font-size:1rem;
+    margin-right: 15px;
+}
+
+.slider-btn .btn-2{
+    color: #111010;
+    background-color: white;
+}
